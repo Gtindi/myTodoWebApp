@@ -1,0 +1,59 @@
+/*** Designed by Tindi ***/
+html{ height:100%; }
+body{ min-height:100%; padding:0; margin:0; position:relative; }
+
+body::after{ content:''; display:block; height:100px; }
+
+body {
+    background-color: #F08080;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 10em;
+
+}
+
+h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1, h2, h3, a {
+    color: #800000;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.container {
+  padding: 20px 15px;
+}
+
+.margins {
+    margin: 10px 0;
+}
+
+.button {
+    width: 100%
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #CD5C5C;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-center img {
+  width: 3%;
+  padding-right: 10px;
+  display: inline-block;
+}

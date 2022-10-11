@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head%}<title>Update - 'To Do' app</title>{% endblock %}
+
+{% block content %}
+   <div class="row">
+       <div class="col-lg-12">
+           <div class="container">
+               <form action="/update/{{ update_task.id }}" method="POST">
+                   <div class="row">
+                       <div class="col-lg-8 margins"><input type="text" name="add-task" id="add-task" class="form-control" value="{{ update_task.task_text }}"></div>
+                       <div class="col-lg-4 margins"><input type="submit" value="Update" class="btn btn-primary button"></div>
+                   </div>
+               </form>
+           </div>
+       </div>
+   </div>
+   <div class="row">
+        <div class="col-lg-12">
+            <div class="container">
+                <a href="/"><button type="button" class="btn btn-info">Back</button></a>
+            </div>
+        </div>
+    </div>
+{% endblock %}

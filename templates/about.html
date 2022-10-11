@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block head%}<title>About - 'Tindi's To Do' app</title>{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="container">
+                <h2 class="text-center">About</h2>
+                <hr>
+                <h4>Basic "TO DO" app created using Python and Flask technologies</h4>
+                <ul>
+                    <li>Name: "To Do" app</li>
+                    <li>Version: 0.1 (beta)</li>
+                    <li>Developer: Gabriel Tindi</li>
+                    <li>Programming language: Python (version 3.8.2)</li>
+                    <li>Web-framework: Flask (version 1.1.2)</li>
+                    <li>Database: SQLite3 (version 2.6.0)</li>
+<!--                    <li>Heroku live project: <a href="https://py-todo-app.herokuapp.com" target="_blank">https://py-todo-app.herokuapp.com</a></li>-->
+<!--                    <li>Github repository: <a href="https://github.com/valeriybercha/py-todo-app" target="_blank">https://github.com/valeriybercha/py-todo-app</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="container">
+                <h4>Basic usage:</h4>
+                <ul>
+                    <li>As user you can create and add a task to the list</li>
+                    <li>You can update an already created task</li>
+                    <li>As user you can delete a specified task</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="container">
+                <div class="alert alert-danger" role="alert">
+                    This app version is created for showcase purposes only
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="container">
+                <a href="/"><button type="button" class="btn btn-info">Back</button></a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
